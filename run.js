@@ -36,6 +36,7 @@ function parse() {
 					} else {
 						img = document.createElement('img');
 						img.src = picture.dataURL;
+						img.pict = picture;
 						tdimg.append(img);
 					}
 					tr.append(tdimg);
