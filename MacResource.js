@@ -23,7 +23,7 @@
 class MacResourceFork {
   static #TMPLPromise = new Promise((resolve, reject) => {
     const MacTemplateJsonFilename = 'forkTmpl.json';
-    const MacTemplateJsonUrl = 'source/resourcefork/' + MacTemplateJsonFilename;
+    const MacTemplateJsonUrl = MacTemplateJsonFilename;
     
     console.log(`MacResourceFork: collecting ${MacTemplateJsonFilename}`);
     const request = new XMLHttpRequest();
