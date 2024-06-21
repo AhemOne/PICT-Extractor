@@ -1,8 +1,4 @@
-/**
- * Example class
-**/
-
-
+// PICT parsing class by Jesse Falzon, 2024
 
 class PICT extends ResourceScanner {
   #version = 1; // assume version 1 on startup
