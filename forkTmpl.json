@@ -1,0 +1,4168 @@
+{
+  "200": {
+    "Name": "actb",
+    "template": [
+      {
+        "Label": "CaSeed",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "CaReserved",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CtSize",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Part code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "201": {
+    "Name": "acur",
+    "template": [
+      {
+        "Label": "Number of \"frames\" (cursors)",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Used a \"frame\" counter",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "'CURS' Resource Id",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "filler",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "202": {
+    "Name": "ALRT",
+    "template": [
+      {
+        "Label": "BoundsRect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "ItemsID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Stg 4 Bold #",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Drawn",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd High",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd Low",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Stg 3 Bold #",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Drawn",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd High",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd Low",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Stg 2 Bold #",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Drawn",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd High",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd Low",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Stg 1 Bold #",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Drawn",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd High",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "   Snd Low",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Auto Position",
+        "Type": "HWRD"
+      }
+    ]
+  },
+  "203": {
+    "Name": "APPL",
+    "template": [
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Creator",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Directory",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Application",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "204": {
+    "Name": "BNDL",
+    "template": [
+      {
+        "Label": "OwnerName",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "OwnerID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NumTypes",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "# of type",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "LocalID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "RsrcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "205": {
+    "Name": "cctb",
+    "template": [
+      {
+        "Label": "CcSeed",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "CcReserved",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CtSize",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Part code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "206": {
+    "Name": "clut",
+    "template": [
+      {
+        "Label": "CtSeed",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "CtFlags",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CtSize",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Pixel Value",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "207": {
+    "Name": "cmnu",
+    "template": [
+      {
+        "Label": "MenuID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Width",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Height",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "ProcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Filler",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "EnableFlgs",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Title",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTZ"
+      },
+      {
+        "Label": "MenuItem",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Icon#",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Key equiv",
+        "Type": "CHAR"
+      },
+      {
+        "Label": "Mark Char",
+        "Type": "CHAR"
+      },
+      {
+        "Label": "Style",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Alignment",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Command number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "208": {
+    "Name": "CNTL",
+    "template": [
+      {
+        "Label": "BoundsRect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "Value",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Visible",
+        "Type": "BOOL"
+      },
+      {
+        "Label": "Max",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Min",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "ProcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "RefCon",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Title",
+        "Type": "PSTR"
+      }
+    ]
+  },
+  "209": {
+    "Name": "CTY#",
+    "template": [
+      {
+        "Label": "Num cities",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Numchars",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Latitude",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Longitude",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "GMT Diff.",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "abc",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "City Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "abc",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "210": {
+    "Name": "dctb",
+    "template": [
+      {
+        "Label": "CdSeed",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "CdReserved",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CtSize",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Part code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "211": {
+    "Name": "DITL",
+    "template": [
+      {
+        "Label": "Number of items",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Place holder",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Display rect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "Item type",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Item info",
+        "Type": "OSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "212": {
+    "Name": "DLOG",
+    "template": [
+      {
+        "Label": "BoundsRect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "ProcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Visible",
+        "Type": "BOOL"
+      },
+      {
+        "Label": "GoAway",
+        "Type": "BOOL"
+      },
+      {
+        "Label": "RefCon",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Items ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Title",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Auto Position",
+        "Type": "HWRD"
+      }
+    ]
+  },
+  "213": {
+    "Name": "DRVR",
+    "template": [
+      {
+        "Label": "DrvrFlags",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrDelay",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrEMask",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrMenu",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrOpen",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrPrime",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrCtl",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrStatus",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DrvrClose",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Driver",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "214": {
+    "Name": "FBTN",
+    "template": [
+      {
+        "Label": "# Buttons",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Icon",
+        "Type": "H080"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Application",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Document",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "215": {
+    "Name": "fctb",
+    "template": [
+      {
+        "Label": "CfSeed",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "CfReserved",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CtSize",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Part code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "216": {
+    "Name": "FDIR",
+    "template": [
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Btn DirID",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "217": {
+    "Name": "finf",
+    "template": [
+      {
+        "Label": "# Fonts",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Font Number",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Font Style",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Font Size",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "218": {
+    "Name": "fld#",
+    "template": [
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Folder type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Version",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Length high byte",
+        "Type": "FBYT"
+      },
+      {
+        "Label": "Folder name",
+        "Type": "OSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "219": {
+    "Name": "FOND",
+    "template": [
+      {
+        "Label": "Flag word",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Family ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "First Char",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Last Char",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Ascent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Descent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Leading",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "WidMax",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Offset to width tables",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Offset to kerning tables",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Offset to style mapping tables",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Unused",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Bold",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Italic",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Underline",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Outline",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Shadow",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Condensed",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Extra width for Extended",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Undefined",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Rsvd for International",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "FOND version",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "# of Font entries",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Font Size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Font Style",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Res ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "The Tables",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "220": {
+    "Name": "FONT",
+    "template": [
+      {
+        "Label": "FontType",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "FirstChar",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "LastChar",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "WidMax",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "KernMax",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NDescent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "FRectWid",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "ChHeight",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "OWTLoc",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Ascent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Descent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Leading",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "RowWords",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Font data",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "221": {
+    "Name": "FREF",
+    "template": [
+      {
+        "Label": "File Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Icon localID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "FileName",
+        "Type": "PSTR"
+      }
+    ]
+  },
+  "222": {
+    "Name": "FRSV",
+    "template": [
+      {
+        "Label": "Number of items",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Font ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "223": {
+    "Name": "FWID",
+    "template": [
+      {
+        "Label": "FontType",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "FirstChar",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "LastChar",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "WidMax",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "KernMax",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NDescent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "FRectWid",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "ChHeight",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "OWTLoc",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Ascent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Descent",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Leading",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Char offset",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Char width",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "224": {
+    "Name": "icmt",
+    "template": [
+      {
+        "Label": "Version Release Date",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Version",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Icon ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Comment Text",
+        "Type": "ESTR"
+      }
+    ]
+  },
+  "225": {
+    "Name": "inbb",
+    "template": [
+      {
+        "Label": "Format Version",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "change on install",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "change on remove",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Value Key",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Value",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "226": {
+    "Name": "indm",
+    "template": [
+      {
+        "Label": "Format Version",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Flags (unused)",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Number of Machines",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Machine Type",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "Number of Processors",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "***** ",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Processor Type",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "***** ",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "Number of MMUs",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****  ",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "MMU Type",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****  ",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "Number of Keyboards",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****   ",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Keyboard Type",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****   ",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "Requires FPU",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Requires Color QD",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Minimal Memory (MB)",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "# of System Resources",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****    ",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Resource Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Resource ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****    ",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "System Revision",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Country Code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "AppleTalk Driver Version",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Min. Target Size (in K)",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Max. Target Size (in K)",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "User Function ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "User Description",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Number of Packages",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****     ",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Package ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****     ",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "227": {
+    "Name": "infa",
+    "template": [
+      {
+        "Label": "Format Version",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "delete on remove",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "delete on install",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "copy",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "leave alone if newer",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "keep existing",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "update only",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "resource fork",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "data fork",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Target FileSpec",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Source FileSpec",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "File Size",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Atom Description",
+        "Type": "ESTR"
+      }
+    ]
+  },
+  "228": {
+    "Name": "infs",
+    "template": [
+      {
+        "Label": "File Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "File Creator",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Creation Date",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "search for file",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Type & Creator must match",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "File Name",
+        "Type": "ESTR"
+      }
+    ]
+  },
+  "229": {
+    "Name": "inpk",
+    "template": [
+      {
+        "Label": "Format Version",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "shows on custom",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "removable",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "icmt ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Package Size",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Package Name",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Number of Parts",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Part Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Part ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "230": {
+    "Name": "inra",
+    "template": [
+      {
+        "Label": "Format Version",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "delete on remove",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "delete on install",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "copy",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "target required",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "keep existing",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "update only",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "even if protected",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "need not exist",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "find by id",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "name must match",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Target FileSpec",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Source FileSpec",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Resource Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Source ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Target ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Resource Size",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Atom Description",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Resource Name",
+        "Type": "ESTR"
+      }
+    ]
+  },
+  "231": {
+    "Name": "insc",
+    "template": [
+      {
+        "Label": "Format",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Flags",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Script name",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Help",
+        "Type": "WSTR"
+      },
+      {
+        "Label": "Align",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Files",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Fspec",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Creator",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Cr date",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Handle",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Del size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Add size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "File name",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "Rsrc files",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Fspec",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Creator",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Cr date",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Handle",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Del size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Add size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "To file name",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "From files",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "+++++",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Fspec",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Creator",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Cr date",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Handle",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Del size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Add size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "From file name",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Rsrcs",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Rspec",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Src id",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tgt id",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Crc/vrsn",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Filler1",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Filler2",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Del size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Add size",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Rsrc name",
+        "Type": "ESTR"
+      },
+      {
+        "Label": "Prev crcs",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "+++++",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "Dump",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "232": {
+    "Name": "itlb",
+    "template": [
+      {
+        "Label": "itl0 id number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "itl1id number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "itl2 id number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "flags word",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "itl4 id number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "reserved",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Script language code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "number rep. code",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "date rep. code",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "KCHR id number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "SICN id number",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Script record size",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "default mono FOND ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "default mono size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "preferred FOND ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "preferred size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "small FOND ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "small size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "system FOND ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "system size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "application FOND ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "appl font size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Help Mgr FOND ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Help Mgr font size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Valid styles",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Alias styles",
+        "Type": "HBYT"
+      }
+    ]
+  },
+  "234": {
+    "Name": "itlc",
+    "template": [
+      {
+        "Label": "System script code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Keyboard cache size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Font force ($0=OFF, $FF=ON)",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Intl force ($0=OFF, $FF=ON)",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Old keyboard",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Always show keybd. icon",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Use dual caret for mixed dir. text",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Flags 5",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Flags 4",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Flags 3",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Flags 2",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Flags 1",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Flags 0",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Script icon offset",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Script icon side ($0=right, $FF=left)",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Rsvd for icon info",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "System region code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "H022"
+      }
+    ]
+  },
+  "235": {
+    "Name": "itlk",
+    "template": [
+      {
+        "Label": "EntryCount",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "KybdType",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "OldMods",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "OldCode",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "MaskMods",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "MaskCode",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "NewMods",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "NewCode",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "236": {
+    "Name": "LAYO",
+    "template": [
+      {
+        "Label": "Font ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Font Size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Screen Hdr Hgt",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Top line break",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Bottom line break",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Printing hdr hgt",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Printing footer hgt",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Window Rect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "Line spacing",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 1",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 2",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 3",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 4",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 5",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 6",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tab stop 7",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Column Justification",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Icon Horiz. spacing",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Icon Vert. spacing",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Icon Vert. phase",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Sm. Icon Horiz.",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Sm. Icon Vert.",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Default view",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "filler",
+        "Type": "FBYT"
+      },
+      {
+        "Label": "Text view date",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Use zoom Rects",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Skip trash warnings",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Always grid drags",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 4",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 3",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 2",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 1",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 0",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Icon-text gap",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Sort Style",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Watch Thresh",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Unused 7",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 6",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 5",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused 4",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Use Phys Icon",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Title Click",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Copy Inherit",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "New Fold Inherit",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Color Style",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Max # of windows",
+        "Type": "DWRD"
+      }
+    ]
+  },
+  "237": {
+    "Name": "MBAR",
+    "template": [
+      {
+        "Label": "# of menus",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Menu res ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "238": {
+    "Name": "mcky",
+    "template": [
+      {
+        "Label": "Threshold 1",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 2",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 3",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 4",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 5",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 6",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 7",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Threshold 8",
+        "Type": "DBYT"
+      }
+    ]
+  },
+  "239": {
+    "Name": "mctb",
+    "template": [
+      {
+        "Label": "Number of Color Menu Entries",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Menu ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Item No.",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red 1",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green 1",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue 1",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Red 2",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green 2",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue 2",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Red 3",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green 3",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue 3",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Red 4",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green 4",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue 4",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "240": {
+    "Name": "MENU",
+    "template": [
+      {
+        "Label": "MenuID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Width",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Height",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "ProcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Filler",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "EnableFlgs",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Title",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTZ"
+      },
+      {
+        "Label": "MenuItem",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Icon#",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Key equiv",
+        "Type": "CHAR"
+      },
+      {
+        "Label": "Mark Char",
+        "Type": "CHAR"
+      },
+      {
+        "Label": "Style",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "241": {
+    "Name": "nrct",
+    "template": [
+      {
+        "Label": "NumOfRects",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Rectangle",
+        "Type": "RECT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "242": {
+    "Name": "PAPA",
+    "template": [
+      {
+        "Label": "Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Type",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Zone",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "AddrBlock",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Dump",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "243": {
+    "Name": "PICK",
+    "template": [
+      {
+        "Label": "Which type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Use color?",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Picker type",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "View by",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "fill",
+        "Type": "FBYT"
+      },
+      {
+        "Label": "V cell size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "H cell size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "LDEF type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Option String",
+        "Type": "PSTR"
+      }
+    ]
+  },
+  "244": {
+    "Name": "PICT",
+    "template": [
+      {
+        "Label": "Size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Rect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "Opcodes",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "245": {
+    "Name": "pltt",
+    "template": [
+      {
+        "Label": "Color table count",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Color usage",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Tolerance value",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Private flags",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Private",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "246": {
+    "Name": "POST",
+    "template": [
+      {
+        "Label": "NumStrings",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTZ"
+      },
+      {
+        "Label": "Commands",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "247": {
+    "Name": "ppat",
+    "template": [
+      {
+        "Label": "Pattern type",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Offset to pixmap",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Offset to data",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Expanded pixel image",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Pattern valid flag",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Expanded pattern",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Old-style pattern              ",
+        "Type": "H008"
+      },
+      {
+        "Label": "Base address",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Row bytes",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Bitmap bounds",
+        "Type": "RECT"
+      },
+      {
+        "Label": "PixMap version",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Packing format",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Size of pixel data",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "H. resolution",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "V. resoultion",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Pixel type",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "# bits in pixel",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "# components in pixel",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "# bits per field",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Offset to next plane",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Offset to color table            ",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Reserved",
+        "Type": "FLNG"
+      },
+      {
+        "Label": "Pixel data and color table",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "248": {
+    "Name": "PRC0",
+    "template": [
+      {
+        "Label": "iPrVersion",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prInfo.iDev",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "prInfo.iVRes",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prInfo.iHRes",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prInfo.rPage",
+        "Type": "RECT"
+      },
+      {
+        "Label": "rPaper",
+        "Type": "RECT"
+      },
+      {
+        "Label": "prStl.wDev",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "prStl.iPageV",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prStl.iPageH",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prStl.bPort",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prStl.feed",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prIPT.iDev",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "prIPT.iVRes",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prIPT.iHRes",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prIPT.rPage",
+        "Type": "RECT"
+      },
+      {
+        "Label": "prXI.iRowBytes",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prXI.iBandV",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prXI.iBandH",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prXI.iDevBytes",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prXI.iBands",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prXI.bPatScale",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prXI.bUlThick",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prXI.UlOffset",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prXI.UlShadow",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prXI.scan",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prXI.bXInfoX",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prJob.iFstPage",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prJob.iLstPage",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prJob.iCopies",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prJob.bJDocLoop",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prJob.fFromUsr",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prJob.pIdleProc",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "prJob.pFileName",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "prJob.iFileVol",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "prJob.bFileVers",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "prJob.bJobX",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "printX",
+        "Type": "H026"
+      }
+    ]
+  },
+  "249": {
+    "Name": "PRC3",
+    "template": [
+      {
+        "Label": "Number of Btns",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 1 Height",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 1 Width",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 2 Height",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 2 Width",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 3 Height",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 3 Width",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 4 Height",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 4 Width",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 5 Height",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 5 Width",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 6 Height",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 6 Width",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Btn 1 Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Btn 2 Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Btn 3 Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Btn 4 Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Btn 5 Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Btn 6 Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Data",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "250": {
+    "Name": "PSAP",
+    "template": [
+      {
+        "Label": "String",
+        "Type": "WSTR"
+      }
+    ]
+  },
+  "251": {
+    "Name": "qrsc",
+    "template": [
+      {
+        "Label": "Version",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "'qdef' ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Host etc. STR#",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CurrQuery",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NumQueries",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "'wstr' ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "NumRes",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "252": {
+    "Name": "RMAP",
+    "template": [
+      {
+        "Label": "MapTo",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Editor only?",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "AWRD",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Exception count",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Map to",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Editor only?",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "AWRD",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "253": {
+    "Name": "ROv#",
+    "template": [
+      {
+        "Label": "Version",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NumTypes",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "TYPE",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "RES ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "254": {
+    "Name": "scrn",
+    "template": [
+      {
+        "Label": "Num. devices",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "SRsrc type",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Nubus slot (card slot+8)",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "DCtlDevBase",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Mode sRsrcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "FlagMask ($77FE)",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Is active",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Is main scrn",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Is color",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "CLUT rsrcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Gamma corr. rsrcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Glob. rect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "Control calls",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "CsCode",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Length",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Data (?)",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "255": {
+    "Name": "SIGN",
+    "template": [
+      {
+        "Label": "Key word",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "BNDL ID",
+        "Type": "DWRD"
+      }
+    ]
+  },
+  "256": {
+    "Name": "SIZE",
+    "template": [
+      {
+        "Label": "Save screen (Obsolete)",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Accept suspend events",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Disable option (Obsolete)",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Can background",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Does activate on FG switch",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Only background",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Get front clicks",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Accept app died events (debuggers)",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "32 Bit Compatible",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "High level event aware",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Local and remote high level events",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Stationery aware",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Use text edit services",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Reserved bit",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Reserved bit",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Reserved bit",
+        "Type": "BBIT"
+      },
+      {
+        "Label": "Size",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Min size",
+        "Type": "DLNG"
+      }
+    ]
+  },
+  "257": {
+    "Name": "STR ",
+    "template": [
+      {
+        "Label": "The String",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Data",
+        "Type": "HEXD"
+      }
+    ]
+  },
+  "258": {
+    "Name": "STR#",
+    "template": [
+      {
+        "Label": "NumStrings",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "The string",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "259": {
+    "Name": "TEXT",
+    "template": [
+      {
+        "Label": "",
+        "Type": "CSTR"
+      }
+    ]
+  },
+  "260": {
+    "Name": "TMPL",
+    "template": [
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Label",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Type",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "261": {
+    "Name": "vers",
+    "template": [
+      {
+        "Label": "Version Number",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Revision Number",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Revision Stage",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Build Number",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Language Integer",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Abbreviated string",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Get Info string",
+        "Type": "PSTR"
+      }
+    ]
+  },
+  "262": {
+    "Name": "wctb",
+    "template": [
+      {
+        "Label": "CwSeed",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "CwReserved",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "CtSize",
+        "Type": "ZCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Part code",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Red",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Green",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "Blue",
+        "Type": "HWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "263": {
+    "Name": "WIND",
+    "template": [
+      {
+        "Label": "BoundsRect",
+        "Type": "RECT"
+      },
+      {
+        "Label": "ProcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Visible",
+        "Type": "BOOL"
+      },
+      {
+        "Label": "GoAway",
+        "Type": "BOOL"
+      },
+      {
+        "Label": "RefCon",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Title",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Auto Position",
+        "Type": "HWRD"
+      }
+    ]
+  },
+  "264": {
+    "Name": "wstr",
+    "template": [
+      {
+        "Label": "Query",
+        "Type": "WSTR"
+      }
+    ]
+  },
+  "265": {
+    "Name": "GNRL",
+    "template": [
+      {
+        "Label": "ShowSysWarn",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "OpenAtStart",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "PickWidth",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "PickHeight",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "TypesWidth",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "TypesHeight",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "UseIconView",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "ShowSize",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "PrefsVersion",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "WindWarnLim",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "VerifyOnOpen",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "AutoSize",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "StackAllWind",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "NoStakCanCol",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "NoShowSplash",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "NoZoomRects",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Unused",
+        "Type": "DWRD"
+      }
+    ]
+  },
+  "266": {
+    "Name": "TOOL",
+    "template": [
+      {
+        "Label": "ToolsPerRow",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NumberOfRows",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "ToolCursorID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "267": {
+    "Name": "CMDK",
+    "template": [
+      {
+        "Label": "CommandKeys",
+        "Type": "PSTR"
+      }
+    ]
+  },
+  "268": {
+    "Name": "RVEW",
+    "template": [
+      {
+        "Label": "ViewBy",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "ShowAttrs",
+        "Type": "DBYT"
+      }
+    ]
+  },
+  "269": {
+    "Name": "resf",
+    "template": [
+      {
+        "Label": "Family count",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Family Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Font count",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Point size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Style",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "-----",
+        "Type": "LSTE"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "270": {
+    "Name": "CMNU",
+    "template": [
+      {
+        "Label": "MenuID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Width",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "Height",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "ProcID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Filler",
+        "Type": "FWRD"
+      },
+      {
+        "Label": "EnableFlgs",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Title",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTZ"
+      },
+      {
+        "Label": "MenuItem",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "Icon#",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Key equiv",
+        "Type": "CHAR"
+      },
+      {
+        "Label": "Mark Char",
+        "Type": "CHAR"
+      },
+      {
+        "Label": "Style",
+        "Type": "HBYT"
+      },
+      {
+        "Label": "Alignment",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "Command number",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "271": {
+    "Name": "hwin",
+    "template": [
+      {
+        "Label": "Help Version",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Options",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Array Count",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Res ID",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Res Type",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Str Length",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Window Title",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "",
+        "Type": "AWRD"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "272": {
+    "Name": "sect",
+    "template": [
+      {
+        "Label": "Version",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Kind",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Mode",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Mod Date",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Section ID",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "RefCon",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Alias Handle",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Sub Part",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Next Section",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Control Block",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Ref Num",
+        "Type": "DLNG"
+      }
+    ]
+  },
+  "273": {
+    "Name": "ppcc",
+    "template": [
+      {
+        "Label": "NBP Lookup Interval",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "NBP Lookup Count",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "NBP Max Lives",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NBP Max entities",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "NBP Idle Time",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "PPC Max Ports",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "PPC Idle Time",
+        "Type": "DWRD"
+      }
+    ]
+  },
+  "274": {
+    "Name": "ITL1",
+    "template": [
+      {
+        "Label": "Use short dates before system",
+        "Type": "HWRD"
+      }
+    ]
+  },
+  "275": {
+    "Name": "KBDN",
+    "template": [
+      {
+        "Label": "Keyboard Name",
+        "Type": "PSTR"
+      }
+    ]
+  },
+  "276": {
+    "Name": "errs",
+    "template": [
+      {
+        "Label": "****",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "Minimum id",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Maximum id",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "String id",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "277": {
+    "Name": "PAT#",
+    "template": [
+      {
+        "Label": "Count of Patterns",
+        "Type": "OCNT"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTC"
+      },
+      {
+        "Label": "Data",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Data",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "*****",
+        "Type": "LSTE"
+      }
+    ]
+  },
+  "278": {
+    "Name": "cfrg",
+    "template": [
+      {
+        "Label": "(private)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "(private)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "cfrg Vers",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "(private)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "(private)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "(unused)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "(unused)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Member Count",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "member",
+        "Type": "LSTB"
+      },
+      {
+        "Label": "alignment",
+        "Type": "ALNG"
+      },
+      {
+        "Label": "Architecture",
+        "Type": "TNAM"
+      },
+      {
+        "Label": "Update Level",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Current Vers",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Old Def Vers",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "App Stack",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "App SubDir",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Usage",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Where",
+        "Type": "DBYT"
+      },
+      {
+        "Label": "Offset",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "Length",
+        "Type": "DLNG"
+      },
+      {
+        "Label": "(unused)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "(unused)",
+        "Type": "HLNG"
+      },
+      {
+        "Label": "Member Size",
+        "Type": "DWRD"
+      },
+      {
+        "Label": "Member Name",
+        "Type": "PSTR"
+      },
+      {
+        "Label": "alignment",
+        "Type": "ALNG"
+      },
+      {
+        "Label": "member",
+        "Type": "LSTE"
+      }
+    ]
+  }
+}
