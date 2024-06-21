@@ -18,6 +18,7 @@
  *    // some code acting on resource forks...
  * )
  * 
+ * By Jesse Falzon, 2023
  * */
 
 class MacResourceFork {
