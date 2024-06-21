@@ -39,7 +39,7 @@ function parse() {
 					tr.append(tdimg);
 					document.getElementById('table').append(tr);
 					
-					progress.setAttribute('value', Number(progress.getAttribute('value'))+1);
+					progress.setAttribute('value', id);
 				}
 			}
 		});
