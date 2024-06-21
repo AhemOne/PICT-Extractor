@@ -21,5 +21,6 @@ function parse() {
 }
 
 function setup() {
-  document.getElementById('loadbutton').onclick = parse;
+  document.getElementById('loadbutton').onclick = parse;	
+  console.log('loader setup complete');
 }
