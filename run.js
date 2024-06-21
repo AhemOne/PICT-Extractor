@@ -1,5 +1,7 @@
 function parse() {
 	const fileref = document.getElementById('file').files[0];
+	if ( fileref === undefined ) return;
+
 	const reader = new FileReader();
 	
 	reader.onload = e => {
