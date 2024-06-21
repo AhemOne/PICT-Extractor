@@ -1,3 +1,5 @@
+// By Jesse Falzon, 2024
+
 function parse() {
 	const fileref = document.getElementById('file').files[0];
 	if ( fileref === undefined ) return;
