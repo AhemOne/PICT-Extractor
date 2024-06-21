@@ -16,6 +16,8 @@ function parse() {
 						</tr>
 					</table>
 				`;
+				const progress = document.getElementById('progress');
+				progress.setAttribute('max', fork.PICT.length);
 				for ( var id in fork.PICT ) {
 					if ( id == "template" ) continue;
 					console.log('found PICT id', id);
@@ -36,6 +38,8 @@ function parse() {
 					}
 					tr.append(tdimg);
 					document.getElementById('table').append(tr);
+					
+					progress.setAttribute('value', Number(progress.getAttribute('value'))+1);
 				}
 			}
 		});
