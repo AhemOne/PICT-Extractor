@@ -27,7 +27,7 @@ function parse() {
 					tdid.append(id);
 					tr.append(tdid);
 					const tdimg = document.createElement('td');
-					if ( picture.dataURL === undefined {
+					if ( picture.dataURL === undefined ) {
 						tdimg.innerHTML = "Error loading image: feature probably not supported";
 					} else {
 						img = document.createElement('img');
