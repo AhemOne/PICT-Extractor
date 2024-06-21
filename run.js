@@ -6,14 +6,14 @@ function parse() {
 		(new MacResourceFork(e.target.result)).then(fork=>{
 			console.log('fork', fork);
 			if ( fork.PICT !== undefined ) {
-				document.body.append(`    
+				document.body.innerHTML += `    
 					<table id='table'>
-	      		<tr>
-	        		<th>ID</th>
-	        		<th>Image</th>
-	      		</tr>
-	    		</table>
-	    	`);
+						<tr>
+							<th>ID</th>
+							<th>Image</th>
+						</tr>
+					</table>
+				`;
 				for ( var id in fork.PICT ) {
 					console.log('found PICT id', id);
 					const picture = new PICT(fork.PICT[id].raw);
