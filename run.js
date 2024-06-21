@@ -39,4 +39,4 @@ function setup() {
 	console.log('loader setup complete');
 }
 
-setup();
+window.addEventListener('load', setup);
