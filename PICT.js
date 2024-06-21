@@ -302,7 +302,8 @@ class PICT extends ResourceScanner {
           }
           
           // here we could check if the length of each .pix line is equal to header.picFrame{width}
-                    
+          console.log(rect);
+          
           // save rgb values to pixelmap
           this.pixelmap = [];
           for ( var line of rect.pix ) {
