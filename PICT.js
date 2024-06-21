@@ -318,6 +318,9 @@ class PICT extends ResourceScanner {
           }
             
           // blit onto canvas
+          //    This might be modified to blit by width and height, instead of bounds.
+          //    Bounds might better be used to position and crop the resulting image (eg eith css)
+          //    there are a number of rects read (header, map src and dst, etc...), need to work out what each means
           for ( var y = rect.map.Bounds.top; y < rect.map.Bounds.bottom; y += 1 ) {
             var line = this.pixelmap[y - rect.map.Bounds.top];
             for ( var x = rect.map.Bounds.left; x < rect.map.Bounds.right; x += 1 ) {
