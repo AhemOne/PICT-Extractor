@@ -143,11 +143,6 @@ class PICT extends ResourceScanner {
         
         case 0x0090: // BitsRect
         case 0x0098: // PackBitsRect
-        
-          switch (op) {
-            case 0x90: console.log("BitsRect"); break;
-            case 0x98: console.log("PackBitsRect"); break;
-          }
           
           var rect = {
             type: "bitMap",
@@ -174,7 +169,6 @@ class PICT extends ResourceScanner {
           
           switch(rect.type) {
             case "bitMap":
-              console.log('bitMap detected...');
               rect.bitMap = rect.map;
               rect.colorTable = {
                 ctSeed: -1,
@@ -206,7 +200,6 @@ class PICT extends ResourceScanner {
               //rect.data = data.slice(PC);
               
               if ( rect.rowBytes < 8 ) {
-                console.log('unpacked');
                 // data is unpacked
                 rect.size = rect.rowBytes * rect.lines;
                 
@@ -220,7 +213,6 @@ class PICT extends ResourceScanner {
                 }
                 
               } else {
-                console.log('packed');
                 // data is packed
                 rect.packed = true;
                 
@@ -241,7 +233,6 @@ class PICT extends ResourceScanner {
               
               break;
             case "pixMap":
-              console.log('pixMap detected...');
               rect.pixMap = rect.map;
               rect.colorTable = this.read('colorTable');
               rect.srcRect = this.read('rect');
@@ -253,7 +244,6 @@ class PICT extends ResourceScanner {
               //rect.data = data.slice(PC);
               
               if ( rect.rowBytes < 8 ) {
-                console.log("unpacked");
                 // data is unpacked
                 
                 for ( var line = 0; line < rect.lines; line += 1 ) {
@@ -263,7 +253,6 @@ class PICT extends ResourceScanner {
                   rect.scanlines.push(scan);
                 }
               } else {
-                console.log("packed");
                 rect.packed = true;
                 
                 var byteCount = 0;
@@ -291,9 +280,7 @@ class PICT extends ResourceScanner {
               rect.pix.push(line);
             }
           } else rect.pix = rect.scanlines;
-          
-          console.log(this.header, rect);
-          
+                    
           // if bytes need to be split into smaller chunks, do so
           if ( rect.type == "bitMap" ) {
             for ( var i = 0; i < rect.pix.length; i += 1 ) {
@@ -319,9 +306,7 @@ class PICT extends ResourceScanner {
           }
           
           // here we could check if the length of each .pix line is equal to header.picFrame{width}
-          
-          console.log(rect);
-          
+                    
           // save rgb values to pixelmap
           this.pixelmap = [];
           for ( var line of rect.pix ) {
