@@ -4,7 +4,8 @@
  *  bytesToText() - converts an array of bytes to a string of ASCII
  *                  old Macs used 256 chars (ASCII is 128)
  *                  set encoding to a map to remap the extended characters
- *  
+ * 
+ * By Jesse Falzon, 2023
  * */
 
 class MacQuirks {
