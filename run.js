@@ -19,20 +19,21 @@ function parse() {
 				for ( var id in fork.PICT ) {
 					if ( id == "template" ) continue;
 					console.log('found PICT id', id);
+
+					const picture = new PICT(fork.PICT[id].raw);
+					
 					const tr = document.createElement('tr');
 					const tdid = document.createElement('td');
 					tdid.append(id);
 					tr.append(tdid);
 					const tdimg = document.createElement('td');
-					var img;
-					try {
-						const picture = new PICT(fork.PICT[id].raw);
+					if ( picture.dataURL === undefined {
+						tdimg.innerHTML = "Error loading image: feature probably not supported";
+					} else {
 						img = document.createElement('img');
 						img.src = picture.dataURL;
-					} catch (e) {
-						img = "error loading image: " + e;
+						tdimg.append(img);
 					}
-					tdimg.append(img);
 					tr.append(tdimg);
 					document.getElementById('table').append(tr);
 				}
