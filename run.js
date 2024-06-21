@@ -17,6 +17,7 @@ function parse() {
 					</table>
 				`;
 				for ( var id in fork.PICT ) {
+					if ( id == "template" ) continue;
 					console.log('found PICT id', id);
 					const picture = new PICT(fork.PICT[id].raw);
 					const img = document.createElement('img');
@@ -27,6 +28,7 @@ function parse() {
 					tr.append(tdid);
 					const tdimg = document.createElement('td');
 					tdimg.append(img);
+					tr.append(tdimg);
 					document.getElementById('table').append(tr);
 				}
 			}
